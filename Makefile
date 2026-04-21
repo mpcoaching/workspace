@@ -49,6 +49,7 @@ restart: down up
 build: build-agent build-gateway
 	@echo "✓ All images rebuilt"
 
+
 .PHONY: deploy
 deploy: build down up deploy-scout
 	@echo "✓ Full deploy complete"
